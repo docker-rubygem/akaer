@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.5.6
+ENV VERSION=1.5.4
 
 RUN gem install akaer --version ${VERSION} --no-format-exec
 
